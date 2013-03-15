@@ -172,7 +172,7 @@ if &t_Co > 255
    hi MatchParen      ctermfg=16  ctermbg=208 cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
-   hi Operator        ctermfg=197
+   hi Operator        ctermfg=202
 
    " complete menu
    hi Pmenu           ctermfg=250  ctermbg=232
@@ -188,7 +188,7 @@ if &t_Co > 255
 
    " marks column
    hi SignColumn      ctermfg=154 ctermbg=235
-   hi SpecialChar     ctermfg=197               cterm=none
+   hi SpecialChar     ctermfg=202               cterm=none
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81
 
