@@ -32,7 +32,7 @@ hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
 hi String          guifg=#E6DB74
 hi Conditional     guifg=#F92672               gui=bold
-hi Constant        guifg=#bc96ff               gui=bold
+hi Constant        guifg=#bc96ff               gui=none
 hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
@@ -106,21 +106,25 @@ hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
 if s:molokai_original == 1
-   hi Normal        guifg=#FFFFE9 guibg=#272822
+   hi Normal        guifg=#ffffed guibg=#272822
    hi Comment         guifg=#75715E
    hi CursorLine                    guibg=#3E3D32
    hi CursorColumn                  guibg=#3E3D32
    hi ColorColumn                   guibg=#3B3A32
-   hi LineNr          guifg=#BCBCBC guibg=#3B3A32
+   hi LineNr          guifg=#929292 guibg=#272822
+   " guibg=#3B3A32
    hi NonText         guifg=#75715E
    hi SpecialKey      guifg=#75715E
+   hi FoldColumn      guifg=#465457 guibg=#272822
+   hi Folded          guifg=#849093 guibg=#272822 gui=italic
 else
    hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
    hi Comment         guifg=#7E8E91
    hi CursorLine                    guibg=#293739
    hi CursorColumn                  guibg=#293739
    hi ColorColumn                   guibg=#232526
-   hi LineNr          guifg=#465457 guibg=#232526
+   hi LineNr          guifg=#465457 guibg=#1B1D1E
+   " guibg=#232526
    hi NonText         guifg=#465457
    hi SpecialKey      guifg=#465457
 end
@@ -157,8 +161,8 @@ if &t_Co > 255
    hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
    hi Exception       ctermfg=154               cterm=bold
    hi Float           ctermfg=177
-   hi FoldColumn      ctermfg=67  ctermbg=16
-   hi Folded          ctermfg=67  ctermbg=16
+   hi FoldColumn      ctermfg=67  ctermbg=none  cterm=none
+   hi Folded          ctermfg=67  ctermbg=none  cterm=none
    hi Function        ctermfg=154
    hi Identifier      ctermfg=208               cterm=none
    hi Ignore          ctermfg=244 ctermbg=232
