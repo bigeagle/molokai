@@ -134,10 +134,10 @@ end
 "
 if &t_Co > 255
    if s:molokai_original == 1
-      hi CursorLine   ctermbg=240   cterm=none
+      hi CursorLine   ctermbg=236   cterm=none
    else
       hi Normal       ctermfg=255
-      hi CursorLine   ctermbg=240   cterm=none
+      hi CursorLine   ctermbg=236   cterm=none
    endif
 
    hi Boolean         ctermfg=177
@@ -146,7 +146,7 @@ if &t_Co > 255
    hi String          ctermfg=185
    hi Conditional     ctermfg=208               cterm=bold
    hi Constant        ctermfg=177               cterm=bold
-   hi Cursor          ctermfg=16  ctermbg=253
+   hi Cursor          ctermfg=16  ctermbg=254
    hi Debug           ctermfg=225               cterm=bold
    hi Define          ctermfg=81
    hi Delimiter       ctermfg=241
@@ -216,8 +216,8 @@ if &t_Co > 255
    hi WildMenu        ctermfg=81  ctermbg=16
 
    hi Comment         ctermfg=244
-   hi CursorColumn                ctermbg=234
-   hi ColorColumn                 ctermbg=234
+   hi CursorColumn                ctermbg=235
+   hi ColorColumn                 ctermbg=235
    hi LineNr          ctermfg=244
    hi NonText         ctermfg=240
 end
