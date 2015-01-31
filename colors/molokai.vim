@@ -171,7 +171,7 @@ if &t_Co > 255
    hi Keyword         ctermfg=197               cterm=bold
    hi Label           ctermfg=229               cterm=none
    hi Macro           ctermfg=193
-   hi SpecialKey      ctermfg=81
+   hi SpecialKey      ctermfg=240
 
    hi MatchParen      ctermfg=195  ctermbg=197 cterm=bold
    hi ModeMsg         ctermfg=229
