@@ -129,6 +129,9 @@ else
    hi SpecialKey      guifg=#465457
 end
 
+hi Conceal guifg=Grey40 guibg=none
+" hi Conceal guifg=#A6E22E guibg=none
+
 "
 " Support for 256-color terminal
 "
